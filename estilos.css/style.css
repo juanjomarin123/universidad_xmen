@@ -18,7 +18,7 @@ body {
     height: 60vh; 
     background-image: url(./Englefield_House_-_geograph.org.uk_-_1824880.jpg);
     background-size: cover; 
-    background-position: center center;
+    background-position: center ;
     background-repeat: no-repeat; 
     background-attachment: scroll; 
     text-align: center;
@@ -462,7 +462,7 @@ p {
 
     .price, .pie_inicio, .pie_contact {
         background-size: cover; 
-        background-position: center center; 
+        background-position: center; 
         background-repeat: no-repeat; 
     }
 
