@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    color: orange;
+}
+
+.nav_inicio {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo { 
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #93c2ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    background: #414141;
+}
+
+.header {
+    height: 60vh !important;
+    background-image: url(./Englefield_House_-_geograph.org.uk_-_1824880.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.titulo_inicio {
+    color: black;
+    font-size: 25px;
+}
+
+.tittle {
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: blue;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 100px;
+}
+
+.texto{
+    color: black;
+    font-size: 25px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 3px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #1f1d1d;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(./Xavier%27s_School_for_Gifted_Youngsters_from_All-New_X-Men_Vol_1_2_01.webp) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.pie_inicio {
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    width: 30%;
+}
+
+.pie_contact {
+    width: 20%;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+.encabezadoIni {
+    font-size: 32px;
+    height: 101px;
+}
+
+.escudo {
+    height: 101px;
+    font-size: 32px;
+}
+
+.bandera-contacto {
+    height: 101px;
+    font-size: 32px;
+}
+
+.bandera-noticias {
+    height: 101px;
+    font-size: 32px;
+}
+
+/*--------contenido del blog----------*/
+#principal {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid;
+    margin: 10px auto;
+    background: #101010;
+}
+
+#publicaciones {
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #9c27b0;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+
+.noticia1 {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    background: #101010;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #101010;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #101010;
+    margin-bottom: 25px;
+}
+
+.titulo-noticia1 {
+    font-size: 23px;
+}
+
+.noticia2 {
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #101010;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #101010;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #101010;
+    margin-bottom: 25px;
+}
+
+.noticia3 {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background: #101010;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #101010;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #101010;
+    margin-bottom: 25px;
+}
+
+.enlace-post {
+    text-decoration: none;
+}
+
+#publicaciones a .titulo-post {
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: 'calibri light';
+}
+
+#publicaciones a .titulo-post:hover {
+    text-decoration: underline;
+}
+
+#publicaciones a .img-post:hover {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #101010;
+    border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones {
+    font-family: 'calibri light';
+}
+
+#publicaciones .parrafo-post {
+    font-family: 'calibri light';
+    font-size: 16px;
+    color: #101010;
+    padding: 5px;
+}
+
+#publicaciones .leer-mas {
+    background: #0489B1;
+    color: #101010;
+    padding: 5px;
+    border: 0px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.icon{
+    display: none;
+}
+
+.menu-container{
+    display: none;
+}
+
+.homero{
+    width: 50em;
+    margin: 0 0 650px 0;
+}
+
+.text_noticia{
+    color: black;
+}
+@media screen and (max-width: 599px) {
+    .titulo_inicio{
+        font-size: 80%;
+    }
+    .navbar {
+        display: none;
+    }
+
+    .icon {
+        display: block; 
+        cursor: pointer;
+    }
+
+    .menu-container {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 63px; 
+        left: 0;
+        right: 0;
+        background: #171717;
+    }
+
+    .menu-container.show-menu {
+        display: flex; 
+    }
+
+    .menu-container a {
+        padding: 10px;
+        color: #93c2ff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .menu-container a:hover {
+        background: #414141;
+    }
+
+.pie_inicio{
+    display: none;
+}
+
+.pol{
+    display: none;
+}
+
+.jack{
+    display: none;
+}
+
+#text_nosotros{
+    font-size: 85%;
+    margin: 3em 0 0 0;
+}
+
+#Tipificacion{
+    margin: 20em 0 0 0;
+
+}
+
+#pie_nosotros{
+    margin: 60em 0 0 0;
+}
+#honor{
+    display: none;
+}
+
+#pie_imagen{
+    display: none;
+}
+
+#titulo_noticia{
+    text-align: center;
+
+    margin: 0 0 25em 0em;
+}
+.text_noticia{
+    font-size: 80%;
+    display: contents;
+    margin: 50em 0 0 0;
+    color: white;
+}
+.text_noticia2{
+    font-size: 80%;
+    display: contents;
+    margin: 50em 0 0 0;
+    color: white;
+}
+
+.text_noticia3{
+    font-size: 80%;
+    display: contents;
+    margin: 50em 0 0 0;
+    color: white;
+}
+.content_sau{
+    display: none;
+}
+}
+@media (max-width: 780px) {
+    .texto_nosotros{
+        display: none;
+    }
+
+    .titulo_inicio{
+        display: none;
+    }
+    .pol{
+        display: none;
+    }
+    
+    .jack {
+        display: none;
+    }
+
+    .silver {
+        display: none;
+    }
+
+#pie_nosotros{
+    margin: 22em 0 0 0;
+}
+.cuadro_honor{
+    margin: 50em 0 0 0;
+}
+#pie_imagen{
+    width: 50%;
+}
+}
+
+
+
+
