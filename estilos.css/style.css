@@ -15,6 +15,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh; 
+    background-image: url(./Englefield_House_-_geograph.org.uk_-_1824880.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
+    text-align: center;
 }
 
 .head {
@@ -63,13 +70,6 @@ body {
     background: #414141;
 }
 
-.header {
-    height: 60vh !important;
-    background-image: url(./Englefield_House_-_geograph.org.uk_-_1824880.jpg);
-    background-size: cover;
-    text-align: center;
-}
-
 .titulo_inicio {
     color: black;
     font-size: 25px;
@@ -90,7 +90,7 @@ p {
     padding: 0 100px;
 }
 
-.texto{
+.texto {
     color: black;
     font-size: 25px;
 }
@@ -175,26 +175,27 @@ p {
 
 .price {
     background: url(./Xavier%27s_School_for_Gifted_Youngsters_from_All-New_X-Men_Vol_1_2_01.webp) no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: scroll; 
     text-align: center;
-    background-position: center;
+}
+
+.pie_inicio, .pie_contact {
+    background-attachment: scroll;
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    text-align: center;
 }
 
 .pie_inicio {
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    background-position: center;
     width: 30%;
 }
 
 .pie_contact {
     width: 20%;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    background-position: center;
 }
 
 .contact {
@@ -332,26 +333,28 @@ p {
     margin-top: 20px;
 }
 
-.icon{
+.icon {
     display: none;
 }
 
-.menu-container{
+.menu-container {
     display: none;
 }
 
-.homero{
+.homero {
     width: 50em;
     margin: 0 0 650px 0;
 }
 
-.text_noticia{
+.text_noticia {
     color: black;
 }
+
 @media screen and (max-width: 599px) {
-    .titulo_inicio{
+    .titulo_inicio {
         font-size: 80%;
     }
+
     .navbar {
         display: none;
     }
@@ -387,98 +390,94 @@ p {
         background: #414141;
     }
 
-.pie_inicio{
-    display: none;
-}
-
-.pol{
-    display: none;
-}
-
-.jack{
-    display: none;
-}
-
-#text_nosotros{
-    font-size: 85%;
-    margin: 3em 0 0 0;
-}
-
-#Tipificacion{
-    margin: 20em 0 0 0;
-
-}
-
-#pie_nosotros{
-    margin: 60em 0 0 0;
-}
-#honor{
-    display: none;
-}
-
-#pie_imagen{
-    display: none;
-}
-
-#titulo_noticia{
-    text-align: center;
-
-    margin: 0 0 25em 0em;
-}
-.text_noticia{
-    font-size: 80%;
-    display: contents;
-    margin: 50em 0 0 0;
-    color: white;
-}
-.text_noticia2{
-    font-size: 80%;
-    display: contents;
-    margin: 50em 0 0 0;
-    color: white;
-}
-
-.text_noticia3{
-    font-size: 80%;
-    display: contents;
-    margin: 50em 0 0 0;
-    color: white;
-}
-.content_sau{
-    display: none;
-}
-}
-@media (max-width: 780px) {
-    .texto_nosotros{
+    .pie_inicio {
         display: none;
     }
 
-    .titulo_inicio{
+    .pol {
         display: none;
     }
-    .pol{
-        display: none;
-    }
-    
+
     .jack {
         display: none;
     }
 
-    .silver {
+    #text_nosotros {
+        font-size: 85%;
+        margin: 3em 0 0 0;
+    }
+
+    #Tipificacion {
+        margin: 20em 0 0 0;
+    }
+
+    #pie_nosotros {
+        margin: 60em 0 0 0;
+    }
+
+    #honor {
         display: none;
     }
 
-#pie_nosotros{
-    margin: 22em 0 0 0;
-}
-.cuadro_honor{
-    margin: 50em 0 0 0;
-}
-#pie_imagen{
-    width: 50%;
-}
+    #pie_imagen {
+        display: none;
+    }
+
+    #titulo_noticia {
+        text-align: center;
+        margin: 0 0 25em 0em;
+    }
+
+    .text_noticia {
+        font-size: 80%;
+        display: contents;
+        margin: 50em 0 0 0;
+        color: white;
+    }
+
+    .text_noticia2 {
+        font-size: 80%;
+        display: contents;
+        margin: 50em 0 0 0;
+        color: white;
+    }
+
+    .text_noticia3 {
+        font-size: 80%;
+        display: contents;
+        margin: 50em 0 0 0;
+        color: white;
+    }
+
+    .content_sau {
+        display: none;
+    }
 }
 
+@media (max-width: 780px) and (min-width: 600px) {
+    .header {
+        height: 50vh;
+        background-attachment: scroll; 
+    }
 
+    .price, .pie_inicio, .pie_contact {
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat; 
+    }
 
+    .titulo_inicio {
+        display: none; 
+    }
 
+    .text_noticia, .text_noticia2, .text_noticia3 {
+        font-size: 80%;
+        display: contents;
+        margin: 50em 0 0 0;
+        color: white;
+    }
+
+    .content {
+        height: auto; 
+    }
+}
